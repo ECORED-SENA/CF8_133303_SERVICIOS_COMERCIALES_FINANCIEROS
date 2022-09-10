@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF8_133303_SERVICIOS_COMERCIALES_FINANCIEROS/](https://ecored-sena.github.io/CF8_133303_SERVICIOS_COMERCIALES_FINANCIEROS/)
 
 #
 
