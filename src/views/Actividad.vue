@@ -10,8 +10,8 @@
             img(src="@/assets/template/completar-espacios.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Completa los espacios y refuerza el conocimiento.
-        p.mb-4 #[b Objetivo] Retroalimentar mientras se evalúa por medio de búsqueda de palabras que hacen falta en los espacios las cuales están en el contenido temático.
+          h2 Proceso cuantitativo y presentación de los datos
+        p.mb-4 #[b Objetivo] Identificar el procesamiento cuantitativo y presentación de los datos en acciones en el campo financiero.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

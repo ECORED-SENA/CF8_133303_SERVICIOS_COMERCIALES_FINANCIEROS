@@ -217,32 +217,39 @@ export default {
   },
   complementario: [
     {
-      tema: 'Técnicas de análisis de datos.',
+      tema: 'Ciencia de los datos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA.  [Ecosistema de Recursos Educativos Digitales]. (2022, 4 de marzo). Analítica de datos.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Analítica de datos.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=eK0QG1SUk9A',
     },
     {
-      tema: 'Bases de datos',
+      tema: 'Herramientas tecnológicas',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. [Ecosistema de Recursos Educativos Digitales SENA]. (2021, 24 de mayo). Sistemas de gestión de bases de datos: Ventajas MySQL.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Sistemas de gestión de bases de datos: ventajas MySQL.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DubJRQFmLLk',
     },
     {
-      tema: '<em>Big Data</em>',
+      tema: 'Algoritmos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. [Ecosistema de Recursos Educativos Digitales SENA] . (2020, 20 de octubre). Analítica de Datos',
+        'BBC News Mundo. (2021). Qué son los algoritmos y cómo aprenden de nosotros',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=LFupF0du7b4',
     },
     {
-      tema: 'Técnicas de gestión de datos masivos',
+      tema: 'Algoritmos',
       referencia:
-        'Huarcaya Almeyda, R. [Remigio Huarcaya Almeyda].   (2020, 18 de octubre). Relación muchos a muchos | Modelamiento de datos',
+        'UNAL sede Manizales. (2017). Video introductorio. Antecedentes de la Estadística',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=HL7EHau2tbA',
+      link: 'https://www.youtube.com/watch?v=-NutZ7n-Exg',
+    },
+    {
+      tema: 'Técnicas de gestión de los datos masivos',
+      referencia:
+        'World Economic Forum. (2016). La cuarta revolución industrial.  Versión completa ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=-OiaE6l8ysg',
     },
   ],
   glosario: [
@@ -295,15 +302,33 @@ export default {
   referencias: [
     {
       referencia:
-        'Big Data. Técnicas, herramientas y aplicaciones María Pérez Marqués Copyright © 2015 RC Libros',
+        'Gurevich, Y.  (2000).  Sequential abstract state machines capture sequential algorithms. ACM Transactions on Computational Logic, (1), p. 77-111. ',
     },
     {
       referencia:
-        'Elmasri, R. & Shamkant, B. (2001). Introducción a los sistemas de bases de datos. Prentice Hall 7ª edición',
+        'Moschovakis, Y. (1998). On founding the theory of algorithms. Truth in mathematics. Oxford University Press. Normas ISO 25000. (s.f.). ISO 25000 Calidad de software y datos ISO/IEC 25012. ',
     },
     {
       referencia:
-        'Connolly. T. & Begg, C. (2007). Sistemas de bases de datos. Addison-Wesley, 5ª edición.',
+        'Normas ISO 25000. (s.f.). ISO 25000 Calidad de software y datos ISO/IEC 25012.',
+      link:
+        'https://iso25000.com/index.php/normas-iso-25000/iso-25012?start=15',
+    },
+    {
+      referencia: 'Schwab, K. (2016). La cuarta revolución industrial. Debate.',
+    },
+    {
+      referencia:
+        'Schwab, K. (2020). La cuarta revolución industrial. Futuro Hoy, 1(1), p. 6-10.',
+    },
+    {
+      referencia:
+        'World Economic Forum. (2016). La cuarta revolución industrial.  Versión completa [video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=-OiaE6l8ysg',
+    },
+    {
+      referencia:
+        'Wu, D., Wu, T., Liu, Q., & Yang, Z. (2020). The SARS-CoV-2 outbreak: what we know. International Journal of Infectious Diseases, (94), p. 44-48.',
     },
   ],
   creditos: {
@@ -317,8 +342,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo:
-          'Responsable equipo de Desarrollo Curricular Ecosistema de Recursos Educativos Digitales',
+        cargo: 'Responsable Equipo desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -328,17 +352,22 @@ export default {
         centro: 'Grupo De Apoyo Administrativo - Cgi - Sena Distrito Capital',
       },
       {
+        nombre: 'Wilmar Eduardo Amaya Ávila ',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
         nombre: 'Caterine Bedoya Mejía',
         cargo: 'Diseñador Instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito capital',
       },
       {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesor metodológico',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesor metodológica',
         centro: 'Centro del Diseño y la Metrología - Regional Distrito capital',
       },
       {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        nombre: 'Julia Isabel Roberto',
         cargo: 'Corrección de estilo',
         centro: 'Centro del Diseño y la Metrología - Regional Distrito capital',
       },
@@ -351,7 +380,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Fabian Zarate',
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -386,14 +415,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Carlos Eduardo Garavito Parada',
+        nombre: 'Pedro Nel Calao Zabala',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Oleg Litvin',
-        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

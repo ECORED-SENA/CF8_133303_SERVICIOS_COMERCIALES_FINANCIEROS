@@ -94,9 +94,7 @@ table
   border-start-start-radius: 15px
   border-start-end-radius: 15px
 
-.bgsly2
-  background-color: fff
-   
+
 
 .bgsly3
   background-color: #fff
@@ -122,12 +120,24 @@ table
 
 .bgsly8
   background-color: #FDE79E
+  margin-top: -8px
+  width: 277px
+  height: 321px
+  @media (max-width: $bp-max-md)
+    left: -8px
+    width: calc( 100% + 1rem)
   
 .bgsly9
   background-color: #FDAB64
 
 .bgsly10
   background-color: #FED5B1
+  margin-top: -8px
+  width: 277px
+  height: 321px
+  @media (max-width: $bp-max-md)
+    left: -8px
+    width: calc( 100% + 1rem)
 
 .alt
   height: 450px
@@ -353,6 +363,28 @@ table
   border-radius: 16px
   border: 3px solid #659A40
 
+.bg12
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: + 0rem
+    left: 5px
+    width: calc( 100% + 2rem)
+    height: calc( 100% + 0rem)
+    background-image: url("../assets/curso/tema4/img7.png") 
+    background-repeat: no-repeat
+    background-size: contain
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+
+
+  
 .img01
   position: absolute
   right: 140px
@@ -377,6 +409,9 @@ table
 .img-t
   width: auto
   height: auto  
+
+.imgtema1
+  margin-top: -97px
 
 .bloque-texto-g.color-primario 
   background-color: #BAE8A4
@@ -448,18 +483,19 @@ table
   background-color: #FFF5EC
   border-radius: 10px
   border: 3px solid #FC8116
+  height: 360px
 
 .tarjeta.color-acento-contenido3 
-  background-color: #FEEFBF
-  border-radius: 10px
-
+  background-color: #C1E7AF
+  border-radius: 0px
+ 
 .tarjeta.color-acento-contenido4 
-  background-color: #F6FBD1
-  border-radius: 10px
+  background-color: #F0F9B4
+  border-radius: 0px
 
 .tarjeta.color-acento-contenido5 
-  background-color: #E1F3D7
-  border-radius: 10px
+  background-color: #FDE79E
+  border-radius: 0px
 
 .tarjeta-avatar > img 
   left: 53%
@@ -475,11 +511,11 @@ table
   background-size: cover
   border: 3px solid #FC8116
 
-.slyder-a__tipo-b .slyder-a__btn--atrs
-  background-color:#529D2E
-
-.slyder-a__tipo-b .slyder-a__btn--sigt
-  background-color: #529D2E
+.flesly
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color:#529D2E
+    background-image: url("../assets/curso/tema4/img4.svg")!important
+  
 
 .slyder-a__bullets__item
   background-color: #A8D194
@@ -512,9 +548,17 @@ table
   color: #12263F
 
 .tarjeta.color-primario4
-  background-color: #E9F4F9
+  background-color: #C1E7AF
+  border-radius: 0px
   width: 100%
-  height: 278px
+  height: 590px
+
+.tarjeta.color-primario5
+  background-color: #E1F3D7
+  border-radius: 0px
+  width: 100%
+  height: 590px
+  
 
 .ico-tema7
   border-radius: 50%

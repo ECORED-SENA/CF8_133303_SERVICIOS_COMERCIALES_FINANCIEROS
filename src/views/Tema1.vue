@@ -160,39 +160,23 @@
       .col-lg-12
         p Y las técnicas para transformar los datos son:
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-4.mb-4
-        .tarjeta.tarjeta.color-acento-contenido2.p-4.h-100
-          img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' ).mb-5
-          h4.text-center Aspectos mejorables
-          p.text-center La supervisión es el eje fundamental de la filosofía empresarial de la mejora continua, puesto que cualquier proceso que espere mejorarse, primero debe ser medido en todos sus elementos, de tal forma que se identifiquen los aspectos mejorables.”
+        .tarjeta.tarjeta.color-acento-contenido2.p-4
+          img.imgtema1(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' )
+          p-mb-0 #[b ETL en el disco local:] 
+          p ETL = extraer, transformar y cargar por medio del disco duro de la empresa o servidor.
       .col-lg-4.mb-4
-        .tarjeta.tarjeta.color-acento-contenido2.p-4.h-100
+        .tarjeta.tarjeta.color-acento-contenido2.p-4
+          p-mb-0 #[b ETL en la nube:] 
+          p Se hace el proceso de extraer, transformar y cargar en la nube, utilizando los beneficios que el proveedor le proporciona.    
           img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen' ).mb-5
-          h4.text-center Contrastar resultados reales y proyectados
-          p.text-center Sin una     
-    .row.mb-5
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar.tema1
-          img(src='@/assets/curso/tema1/img10.svg', style="width: 250px")
-          .tarjeta.color-acento-contenido2
-            .p-4
-              p-mb-0 #[b ETL en el disco local:] 
-              p ETL = extraer, transformar y cargar por medio del disco duro de la empresa o servidor.
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta.color-acento-contenido2
-          .p-4
-            p-mb-0 #[b ETL en la nube:] 
-            p Se hace el proceso de extraer, transformar y cargar en la nube, utilizando los beneficios que el proveedor le proporciona.
-          .tarjeta-avatar.tema1
-            img(src='@/assets/curso/tema1/img11.svg', style="width: 250px")
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar.tema1
-          img(src='@/assets/curso/tema1/img12.svg', style="width: 250px")
-          .tarjeta.color-acento-contenido2
-            .p-4
-              p-mb-0 #[b [i Scripting:]]
-              p Esta técnica se utiliza por medio de scripts para identificar el código y así extraer los datos y transformarlos en información.
+      .col-lg-4.mb-4
+        .tarjeta.tarjeta.color-acento-contenido2.p-4
+          img.imgtema1(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' )
+          p-mb-0 #[b ETL en el disco local:] 
+          p ETL = extraer, transformar y cargar por medio del disco duro de la empresa o servidor.
+      
     .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #EDF8A4" data-aos="fade")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
