@@ -30,6 +30,30 @@
     height: 38%
     background-color: #FEF1C4
     z-index: 0     
+  
+.dual-txt-deco1
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -11px
+    left: -25px
+    width: 30%
+    height: 81%
+    background-color: #F5FBF1
+    z-index: 0 
+
+.dual-txt-deco2
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -11px
+    left: -25px
+    width: 30%
+    height: 41%
+    background-color: #F5FBF1
+    z-index: 0      
 
 .hoverScale2
   transition: all .3s ease-in-out
@@ -65,16 +89,71 @@
 table 
   border-collapse: initial
 
+.bgsly1
+  background-color: #FDAB64
+  border-start-start-radius: 15px
+  border-start-end-radius: 15px
 
+.bgsly2
+  background-color: fff
+   
 
+.bgsly3
+  background-color: #fff
+  border-radius: 15px
 
+.bgsly4
+  background-color: #FED5B1
+  border-end-start-radius: 15px
+  border-end-end-radius: 15px
   
+.bgsly5
+  background-color: #85D161
+  border-start-start-radius: 15px
+  border-start-end-radius: 15px
+  
+.bgsly6
+  background-color: #DBF5CC
+  border-end-start-radius: 15px
+  border-end-end-radius: 15px
+
+.bgsly7
+  background-color: #FCD03E
+
+.bgsly8
+  background-color: #FDE79E
+  
+.bgsly9
+  background-color: #FDAB64
+
+.bgsly10
+  background-color: #FED5B1
+
+.alt
+  height: 450px
+
 .txt-color1
   color: #FC8116
   font-weight: bold
 
 .bg1
-  background-color: #FDFEF9
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: +-3rem
+    left: 1
+    width: calc( 100% + 3rem)
+    height: 115%
+    background-color: #D9F2F6 
+    border-start-end-radius: 260px
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
 
 .bg2
   position: relative
@@ -97,7 +176,23 @@ table
       width: calc( 100% + 1rem)
 
 .bg3
-  background-color: #C2E8B0
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: + 12rem
+    left: 1
+    width: calc( 100% + 3rem)
+    height: 67%
+    background-color: #FFF4EB
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+  
 
 .bg4
   position: relative
@@ -120,15 +215,44 @@ table
       width: calc( 100% + 1rem)
 
 .bg5
-  background-color: #FEEFBF
-  border-radius: 10px
+  position: relative
+  .row, p, h4, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 2%
+    left: 7%
+    width: 73%
+    height: 97%
+    background-color: #EDF8A4
+    border-radius: 15px
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
 
 .bg6
-  background-color: #F5D774
-  width: 20%
-  background-size: cover
-  background-repeat: no-repeat
-
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: +-1rem
+    left: 208px
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 2rem)
+    background-image: url("../assets/curso/tema2/img15.png") 
+    background-repeat: no-repeat
+    background-size: contain
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+    
 .bg_grad-01
   position: relative
   h4 
@@ -143,7 +267,6 @@ table
     height: 28%
     background-color: #F8F8F8
 
-
 .bg7
   position: relative
   .row
@@ -155,7 +278,7 @@ table
     top: 12rem
     left: 158px
     width: calc( 100% + -15rem)
-    height: calc( 100% + -26rem)
+    height: calc( 100% + -12rem)
     background-image: url("../assets/curso/tema1/img7.png") 
     background-repeat: no-repeat
     background-size: cover
@@ -163,34 +286,48 @@ table
       background-size: cover
       left: -8px
       width: calc( 100% + 1rem)
-      height: calc( 100% + -44rem)
-.bg8
-  background-image: url("../assets/curso/tema1/img52.png")
-  background-size: contain
-  background-repeat: no-repeat
-  @media (max-width: $bp-max-md)
-    background-size: cover
-    left: -8px
-    width: calc( 100% + 1rem)
-  
+      height: calc( 100% + -38rem)
 
-.img01
-  position: absolute
-  right: 140px
-  @media (max-width: $bp-max-sm)
-   position: inherit
-   right: 0px
+.bg8
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: +-2rem
+    left: 93px
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 2rem)
+    background-image: url("../assets/curso/tema2/img16.png") 
+    background-repeat: no-repeat
+    background-size: contain
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
 
 .bg9
-  background-image: url("../assets/curso/tema1/img58.svg")
-  background-size: contain
-  background-repeat: no-repeat
-  @media (max-width: $bp-max-md)
-    background-size: cover
-    left: -8px
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: + 0rem
+    left: 5px
     width: calc( 100% + 1rem)
- 
-  
+    height: calc( 100% + -1rem)
+    background-image: url("../assets/curso/tema3/img7.png") 
+    background-repeat: no-repeat
+    background-size: contain
+    @media (max-width: $bp-max-md)
+      background-size: cover
+      left: -8px
+      width: calc( 100% + 1rem)
+
 .bg10
   position: relative
   .row
@@ -199,60 +336,50 @@ table
     content: ''
     position: absolute
     margin: 0 0rem
-    top: -2rem
-    left: -33px
-    width: calc( 100% + 5rem)
-    height: calc( 100% + 6rem)
-    background-image: url("../assets/curso/tema1/img58.svg") 
+    top: +-1rem
+    left: -17px
+    width: calc( 100% + 4rem)
+    height: calc( 100% + 2rem)
+    background-image: url("../assets/curso/tema4/img1.png") 
     background-repeat: no-repeat
     background-size: contain
-
-
-
-.bg12
-  background-image: url("../assets/curso/tema2/img3.svg")
-  background-size: contain
-  background-repeat: no-repeat
-
-.bg13
-  position: relative
-  .row
-    position: relative
-  &::before
-    content: ''
-    position: absolute
-    margin: 0 0rem
-    top: 1rem
-    left: -280px
-    width: calc( 100% + 24rem)
-    height: calc( 100% + 5rem)
-    background-image: url("../assets/curso/tema3/img4.png")
-    background-repeat: no-repeat
-    background-size: cover
     @media (max-width: $bp-max-md)
       background-size: cover
       left: -8px
       width: calc( 100% + 1rem)
-  
-.bg14
-  background-image: url("../assets/curso/tema3/img10.svg")
-  background-size: contain
-  background-repeat: no-repeat
 
-.bg15
-  background-image: url("../assets/curso/tema4/img1.png")
-  background-size: cover
-  background-repeat: no-repeat
+.bg11
+  background: #F1FFEA
+  border-radius: 16px
+  border: 3px solid #659A40
 
-.bg16
-  background-color: #E4F476
+.img01
+  position: absolute
+  right: 140px
+  @media (max-width: $bp-max-sm)
+   position: inherit
+   right: 0px
 
-.bg17
-  background-color: #F6FBD1
+.taborde
+  border: 1px solid #0e0b0b
+  padding: 0.75em
 
+.img-t1 
+  margin-top: -65px
+.mdf
+  .text-end 
+    text-align: left!important
+  &_1
+    border-radius: 50%
+    background-color: #FCD03E
+    &:hover
+      background-color: #FD963D
 .img-t
   width: auto
   height: auto  
+
+.bloque-texto-g.color-primario 
+  background-color: #BAE8A4
 
 .tarjeta--azul 
   background-color: #FEE89F
@@ -264,25 +391,13 @@ table
   border: 3px solid #FC8116
 
 .img-infografica__item, .img-infografica-b__item 
-  width: 4.5%;
+  width: 7.5%
 
 
 .fa-plus:before   
   color: black
   font-size: 18px
 
-.img-infografica-b.color-acento-botones .img-infografica-b__item__numero 
-  color: black
-  font-size: 26px
-
-.img-infografica__card
-  width: 350px !important
-
-.img-infografica-b__modal
-  background-color: #F6F6F6 !important
-
-.img-infografica-b__modal__contenido div > *
-  color: #12263F !important
 
 .fa-times:before
   color: #11253E
@@ -361,18 +476,21 @@ table
   border: 3px solid #FC8116
 
 .slyder-a__tipo-b .slyder-a__btn--atrs
-  background-color:#FC8116
+  background-color:#529D2E
 
 .slyder-a__tipo-b .slyder-a__btn--sigt
-  background-color: #FC8116
+  background-color: #529D2E
 
 .slyder-a__bullets__item
-  background-color: #FECCA1
-  border-color: #FECCA1
+  background-color: #A8D194
+  border-color: #A8D194
 
 .slyder-a__bullets__item--active
-  background-color: #FC8116
-  border-color: #FC8116
+  background-color: #529D2E
+  border-color: #529D2E
+
+.slyder-a__btn--sigt
+  background-color: #FED5B1
 
 .bloque-texto-a.color-primario
   background-color: #FED5B1

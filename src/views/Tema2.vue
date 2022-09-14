@@ -5,220 +5,235 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span.text-white 2
-      h1 Bases de datos
-    p.mb-5 
-    .bloque-texto-a.color-primario.p-4.p-md-4.mb-5(data-aos="fade-right") 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
+      h1 Herramientas tecnológicas
+    .row.align-items-center.justify-content-center(data-aos="fade-right")
+      .col-lg-12 
+        p Las diferentes herramientas que se utilizan son por medio de un <em>software</em> diseñado para extraer, modificar y programar los datos recolectados. 
+      .row.align-items-center.justify-content-center.bg5
+        .col-lg-7
+          p El uso de esta herramienta es elegido según diferentes características y modelos existentes, configurándola según las necesidades de cada entidad.
+          p Por otro lado, estos <em>software</em> garantizan la #[b confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.]
+        .col-lg-3.mb-3
           figure
-            img(src='@/assets/curso/tema2/img1.svg', style="width:300px").m-auto
-        .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-0 Es una herramienta encargada de guardar los datos y entrelazarlos de forma lógica según su contenido o temática.
-            p Es muy útil en las entidades que buscan gestionar gran cantidad de información por medio de herramientas digitales, buscando soluciones al gran volumen de datos que administran.
+            img.img-t(src='@/assets/curso/tema2/img1.png').mx-auto(data-aos="fade-right")
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1 Clasificación 
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
-      .col-10.bg5.p-4
-        .row.align-items-center.justify-content-center
-          .col-lg-2.mb-3
-            figure
-              img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
-          .col-lg-8.bg11
-            p.p-3 Las bases de datos en las entidades usualmente se clasifican según la necesidad de las organizaciones de la siguiente manera:
-    .bg12.p-3.mb-3.mt-5(data-aos="fade-right")
-      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
-        .col-md-8
-          .col-lg-12.mb-4.ps-3
-            .tarjeta-avatar-b.mb-0.h-100
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/img4.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul2
-                .p-4
-                  h4 Por Variación
-                  p.mt-4 Están compuestos por esos datos que comúnmente se mantienen en archivo de forma estática y sirven de consulta y análisis si son requeridos. Por otro lado, también esos datos que se mantienen en actualización continua, es decir se modifican cuando es requerido por la entidad.
-          .col-lg-12.mb-4.ps-3
-            .tarjeta-avatar-b.mb-0.h-100
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--azul2
-                .p-4
-                  h4 Por Tema
-                  p.mt-4 Están compuestos por los datos que se identifican a través de citas bibliográficas como medio de información primaria, también datos de texto que compilan fuentes completas de información, además directorios que como su gestión común encontramos que identifican datos de contacto que requerimos, por ultimo las bibliotecas digitales que almacenan contenido de varia información de consulta según necesidad.
-        .col-md-4.col-7(data-aos="fade-left")
-          figure
-            img(src='@/assets/curso/tema2/img2.svg')(data-aos="fade-left")
+      h2 2.1 Criterios de funcionalidad y manejo
+    p.mb-5 En las organizaciones el uso de las bases de datos se gestiona por medio de herramientas digitales que le permiten su administración, esto realizado por un <em>software</em> que responde a las necesidades según la magnitud de las bases que maneje cada entidad. A continuación se presentan las más utilizadas, su función y manejo:
+    SlyderF.mb-5(columnas="col-md-6 col-lg-4")
+      .col-12.col-lg-12.mb-3.mb-lg-0.bgt01
+        .row.m-1
+          .col-12.p-2.bgtitulo
+            h3.mt-2.text-center <em>Microsoft SQL Server</em>
+          .col-12.p-3.bgcontenido(style="height: 350px")
+            img.mb-3(src="@/assets/curso/tema2/img2.png"  alt='Texto que describa la imagen')
+            p Gestiona bases de datos de forma relacional, extrayendo información y creando cuadros de comparación frente a los datos solicitados versus lo encontrado.      
+      .col-12.col-lg-12.mb-3.mb-lg-0.bgt02
+        .row.m-1
+          .col-12.p-2.bgtitulo
+            h3.mt-2.text-center <em>MySQL</em>
+          .col-12.p-3.bgcontenido(style="height: 350px")
+            img.mb-3(src="@/assets/curso/tema2/img3.png"  alt='Texto que describa la imagen')
+            p Gestiona bases de datos de forma correlacional por medio abierto, es decir, uso público, siendo una de las más conocidas en todo el mundo, extrae información, relaciona y entrega reporte.
+      .col-12.col-lg-12.mb-3.mb-lg-0.bgt03
+        .row.m-1
+          .col-12.p-2.bgtitulo
+            h3.mt-2.text-center <em>Oracle Database</em>
+          .col-12.p-3.bgcontenido(style="height: 350px")
+            img.mb-3(src="@/assets/curso/tema2/img4.png"  alt='Texto que describa la imagen')
+            p Gestión de bases de datos relacional que extrae información, compara y entrega, teniendo la particularidad el nivel de seguridad, dejando solo administradores con permisos en su uso.
+      .col-12.col-lg-12.mb-3.mb-lg-0.bgt01
+        .row.m-1
+          .col-12.p-2.bgtitulo
+            h3.mt-2.text-center <em>Microsoft Access</em>
+          .col-12.p-3.bgcontenido(style="height: 350px")
+            img.mb-3(src="@/assets/curso/tema2/img2.png"  alt='Texto que describa la imagen')
+            p Es una herramienta para el uso de manejo y gestión de la información que se puede adecuar a <em>Excel, share point</em> y demás componentes, trabaja de forma relacional para la entrega de reportes o consultas.      
+      .col-12.col-lg-12.mb-3.mb-lg-0.bgt02
+        .row.m-1
+          .col-12.p-2.bgtitulo
+            h3.mt-2.text-center <em>FileMarker</em>
+          .col-12.p-3.bgcontenido(style="height: 350px")
+            img.mb-3(src="@/assets/curso/tema2/img3.png"  alt='Texto que describa la imagen')
+            p Aplicación de <em>Mac y Windows</em> para bases de datos relacionales, sirve para extraer información y comparar con la particularidad que es multiplataforma, lo que facilita trabajar con las gráficas propias del equipo del usuario.
+      .col-12.col-lg-12.mb-3.mb-lg-0.bgt03
+        .row.m-1
+          .col-12.p-2.bgtitulo
+            h3.mt-2.text-center <em>dBASE</em>
+          .col-12.p-3.bgcontenido(style="height: 350px")
+            img.mb-3(src="@/assets/curso/tema2/img4.png"  alt='Texto que describa la imagen')
+            p Herramienta pionera en la gestión de base de datos, se utiliza manejando palabras clave de búsqueda y lugar en donde hacerlo, es utilizado por entidades que manejan un nivel de información baja y de fácil administración.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-7
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="<em>Python</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 Lenguaje de programación de carácter abierto, lo que permite que se pueda generar trabajo colaborativo.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen').mx-auto
+          .row(titulo="Lenguaje R")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 <em>Software</em> que permite hacer cálculos estadísticos y gráficos.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img5.svg').mx-auto
+          .row(titulo="<em>Hadoop</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 Herramienta que permite el análisis de datos de forma abierta y procesar grandes volúmenes de datos.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img6.svg').mx-auto
+          .row(titulo="<em>Apache Spark</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 Herramienta que procesa los datos rápidamente, de forma abierta y propone soluciones desde los mismos usuarios.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img7.svg').mx-auto
+          .row(titulo="<em>MongoDB</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 Herramienta enfocada a los documentos y no en registros.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img8.svg').mx-auto
+          .row(titulo="<em>Apache Cassandra</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 <em>Software</em> que ofrece alto rendimiento tanto para la recepción como para la salida de información, no se recomienda mucho para datos de entidades por su tipo de almacenaje y compatibilidad.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img9.svg').mx-auto
+          .row(titulo="<em>Elasticsearch</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 Se utiliza para el manejo de volumen alto de información, es un buscador de datos muy eficiente, ya que tiene la facilidad de manejar datos complejos.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img10.svg').mx-auto
+          .row(titulo="<em>Apache Drill</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 Herramienta que brinda la solución de integrar variedad de herramientas en un solo <em>software</em>.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img11.svg').mx-auto
+          .row(titulo="<em>Apache Oozie</em>")
+            .col-12
+              .row.align-items-center
+                .col-md-8.align-items-center
+                  p.ps-5 Herramienta de programación que da la posibilidad de convertir datos complejos.
+                .col-lg-4.col-md-6.col-12.p-3
+                  figure
+                    img.img-t(src='@/assets/curso/tema2/img12.svg').mx-auto
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen')
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2 Características
-    p A continuación, se enumeran las características de las bases de datos para un mayor entendimiento:
-    .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/img59.png")
-        .col.ps-lg-5
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4 PDF Características de las bases de datos
-              p.mb-0 Lo invitamos a consultar el siguiente recurso que muestra un ejemplo de las características de las bases de datos.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/anexo3.pdf')" target="_blank")
-                span Descargar 
-                i.fas.fa-file-download
+      h2 2.2 Paquetes integrados
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-5.col-md-6.col-12.p-0.mb-5
+        figure
+          img.img-t(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen').mx-auto
+      .col-lg-7
+        p Hoy en día, a nivel organizacional, la adquisición de herramientas ofimáticas que potencien la automatización de los mecanismos laborales es una ventaja competitiva, para ello, la integración de los datos a través de mecanismos integrales para el manejo de la información es un prioridad, un ejemplo de esto se ve cuando se hace la adquisición de licencias de paquetes de office empresarial, el cual contiene muchas herramientas necesarias para la gestión laboral del Siglo XXI, en este ejemplo se encuentra herramientas ofimáticas como Word, Excel, Access, entre otras. No obstante, de acuerdo con el sector empresarial, los objetivos organizacionales y el planteamiento estratégico, día a día se requiere estar a la vanguardia y se generan nuevas herramientas ofimáticas funcionales que integran más y más datos, y qué además, permiten cada vez mejorar la interpretación y el análisis de la información.   
+    .bg6
+      .row.align-items-center.justify-content-center.mb-5
+        .col-lg-2.mb-3
+          figure
+            img.img-t(src='@/assets/curso/tema2/img14.png').mx-auto(data-aos="fade-right")
+        .col-lg-7
+          p Es de tener en cuenta que la entrada de nuevos paquetes integrados a nivel funcional se debe comprender y dar una actitud positiva frente a los costos y beneficios de estos nuevos mecanismos, en muchas ocasiones los equipos de trabajo se encuentran prevenidos a situaciones de cambio, por lo cual hacerse partícipe, capacitarse y liderar de forma positiva coadyuva en la sinergia para la puesta en operación y el logro de resultados exitosos, con la puesta en marcha de nuevas herramientas ofimáticas.      
     Separador
     #t_2_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.3 Modelos 
-    p Los modelos de administración de datos se basan en ubicar donde se almacena la información, así como la extracción o consulta de la misma.
-    p.mb-5 Los modelos son:
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-12
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-5
-          .row(titulo="Por Rango")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Se utiliza cuando se administra una gran cantidad de información y se hace cómo tener un árbol invertido donde la raíz es la fuente de datos y las hojas no producen información tiene falencias cuando los datos son repetidos o redundantes.  
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen').mx-auto
-          .row(titulo="Por red")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Se utiliza para resolver solución frente a gran volumen de datos evitando la redundancia, pero tiene fallas en el proceso de administración.
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img7.svg').mx-auto
-          .row(titulo="Por transacciones")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Se utiliza para remitir y recibir información de forma rápida y su uso debe contar con un buen sistema ya que las operaciones que se generen deben ser en el mismo tiempo, es decir; envío y recepción inmediata para garantizar el uso óptimo.
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img8.svg').mx-auto
-          .row(titulo="Por relación")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica tiene la facilidad de manejar volúmenes grandes de información de forma eficiente. 
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img9.svg').mx-auto
-          .row(titulo="Multidimensional")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Se maneja para actividades directas y concretas de forma eficiente brinda soluciones tipo relacional.
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img10.svg').mx-auto
-          .row(titulo="Por guía a objetos")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Este modelo hace uso de su administración y creación por funciones lo que permite manejar programas y operaciones por separado, tiene capacidad de trabajar sobre volúmenes altos de información de forma óptima.
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img11.svg').mx-auto
-          .row(titulo="Por documentos")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Se utiliza para modificar las variables de información, es decir cambiar textos sin afectar el contenido, también gestionar búsqueda de datos de gran volumen, así como su administración. 
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img12.svg').mx-auto
-          .row(titulo="Por deducción")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Su administración se basa en situaciones presentadas, a través de la lógica que brinda las matemáticas, tiene la capacidad de almacenar y manejar volúmenes altos de datos.
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img13.svg').mx-auto
-          .row(titulo="Por distribución")
-            .col-12
-              .row.align-items-center
-                .col-md-8.align-items-center
-                  p.ps-5 Este modelo contempla su administración a través de la red en diferentes sitios generando varias opciones para su edición y control, contiene capacidad alta de volumen de datos.
-                .col-lg-4.col-md-6.col-12.p-0
-                  figure
-                    img.img-t(src='@/assets/curso/tema2/img14.svg').mx-auto
-      .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
-        .col-8.bg5.p-4
-          .row.align-items-center.justify-content-center
-            .col-lg-2.mb-3
-              figure
-                img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
-            .col-lg-10
-              h4.bg6.ps-3.mt-2 Nota:
-              p.mb-0 Se aclara que los modelos van asociados a la tecnología, características y diferentes herramientas que se integran como la recolección de los datos, según cada entidad, presupuesto y necesidades. 
+      h2 2.3 Herramientas colaborativas y de acceso a la nube
+    p.mb-5 Con el desarrollo de la cuarta revolución industrial y por el efecto de la pandemia generada desde diciembre de 2019 por el SARS-CoV-2, coronavirus Covid-19, el trabajo colaborativo con el uso de herramientas ofimáticas disponibles en la nube y de aplicación en línea ha tenido un efecto exponencial de interpretación del manejo de estas, como también en los mecanismos de practicidad y de utilización de las mismas, dentro de las cuales, muy seguramente como aprendiz se ha visto inmerso en el manejo estas herramientas y manejará muchas más en el desarrollo de trabajos colaborativos para el cumplimiento de las actividades del presente programa técnico. Se relacionan algunas de estas (Yang, 2020):
+    .bg8(data-aos="fade-right")
+      .row.align-items-center.justify-content-center.mb-5
+        .col-lg-1
+        .col-lg-4.ms-5
+          ul.lista-ul--color
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Google Drive</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Microsoft Office 365 - One Drive</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Dropbox</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Wikis</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Zoom</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Slack</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Workplace Facebook</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Basecamp 3</em>
+            li
+              <i class="fas fa-check-circle" style="color:#FC8116"></i>
+              | <em>Trello</em>
+        .col-md-4.col-8(data-aos="fade-left")
+            img(src='@/assets/curso/tema2/img13.svg')
+    .col-lg-12
+      p.mb-5 Para profundizar en esta temática de las herramientas se invita a observar el siguiente video:
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     Separador
     #t_2_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.4 Sistemas de Gestión de bases de datos 
+      h2 2.4 Tecnologías de la modernidad 4.0 
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
-      .col-lg-5.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/tema2/img16.png').m-auto
-      .col-lg-7
-        p La administración y gestión que se hace de la información se realiza a través de un <em>software</em> diseñado para extraer, modificar y programar los datos recolectados. El uso de esta herramienta es elegido según diferentes características y modelos existentes, configurándola según las necesidades de cada entidad.
-        p Por otro lado, estos <em>softwares</em> garantizan la confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.
-        p.mb-5 En las organizaciones el uso de las bases de datos se gestiona por medio de herramientas digitales que le permiten su administración, esto por un <em>software</em> que responde a las necesidades según la magnitud de las bases que maneje cada entidad, a continuación, se presentan las más utilizadas.
-    TabsA.color-acento-contenido.mb-5
-      .tarjeta.color-acento-botones.p-4(titulo="<em>Microsoft SQL Server</em>:")
-        .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 <em>Microsoft SQL Server</em>:  
-            p.mb-3 Esta herramienta sirve para gestionar bases de datos de forma relacional, extrayendo información y creando cuadros de comparación frente a los datos solicitados versus lo encontrado.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
-            figure
-              img(src='@/assets/curso/tema2/img17.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="MySQL:")
-        .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 MySQL: 
-            p.mb-0 Esta herramienta gestiona bases de datos de forma correlacional por medio abierto es decir uso público siendo una de las más conocidas en todo el mundo, extrae información, relaciona y entrega reporte.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
-            figure
-              img(src='@/assets/curso/tema2/img18.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="<em>Oracle Database</em>:")
-        .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 <em>Oracle Database</em>: 
-            p.mb-0 Es una herramienta de gestión de bases de datos relacional que extrae información, compara y entrega, teniendo la particularidad el nivel de seguridad dejando solo administradores con permisos en su uso.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
-            figure
-              img(src='@/assets/curso/tema2/img19.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="<em>Microsoft Access</em>:")
-        .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 <em>Microsoft Access</em>:
-            p.mb-0 Es una herramienta para el uso de manejo y gestión de la información que se puede adecuar a Excel, Sharepoint y demás componentes, trabaja de forma relacional para entrega de reportes o consultas.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
-            figure
-              img(src='@/assets/curso/tema2/img20.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="<em>FileMarker</em>:")
-        .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 <em>FileMarker</em>: 
-            p.mb-0 Es una aplicación de Mac y Windows para bases de datos relacionales, sirve para extraer información y comparar con la particularidad que es multiplataforma lo que facilita trabajar con las gráficas propias del equipo del usuario.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
-            figure
-              img(src='@/assets/curso/tema2/img21.png').m-auto
-      .tarjeta.color-acento-botones.p-4(titulo="dBASE:")
-        .row
-          .col-lg-9.mb-4.mb-lg-0.p-4
-            h4 dBASE:
-            p.mb-0 Es la herramienta pionera en la gestión de base de datos, se utiliza manejando palabras claves de búsqueda y lugar en donde hacerlo, es utilizado por entidades que manejan un nivel de información baja y de fácil administración.
-          .col-lg-3.d-flex.align-items-center.justify-content-center
-            figure
-              img(src='@/assets/curso/tema2/img22.png').m-auto
+      .col-lg-12
+        p La automatización de las cosas y nuestra evolución tecnológica obedece al concepto conocido como "la cuarta revolución industrial”, para ello es importante apoyarse en el concepto definido por Schwab (2016), sistemas inteligentes y conectados, lo cuales parten de una programación de algoritmos y su alcance es cada día más amplio.  Al mismo tiempo, se producen oleadas de más avances tecnológicos, lo cual se ha visto impulsada de manera significativa con relación al efecto de la pandemia generada por el Covid-19 (Yang, 2020).
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-up-left")
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img17.png')})`}"
+          )        
+          .bloque-texto-g__texto.py-5.px-4
+            p.mb-0  La interacción con la tecnología cada día va ligada a temas exponenciales, a través de los dominios físicos, digitales y biológicos, para Schwab (2020), corresponde a una revolución tecnológica que alterará fundamentalmente la forma en que se vive, se trabaja y se relaciona, involucrando a todos los actores de la política global, desde los sectores públicos y privados hasta la academia y la sociedad civil; pero todos estos conceptos parten de lenguajes de programación bajo conceptos de algoritmos. 
+    .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema2/img18.png")
+        .col.ps-lg-5
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h4 La cuarta revolución industrial
+              p.mb-0 Para fortalecer este aprendizaje es importante que recurra al material complementario y observe el video. La cuarta revolución industrial. 
+            .col-sm-auto
+              a.boton.color-acento-botones.me-3.mg4(href="https://www.youtube.com/watch?v=-OiaE6l8ysg" target="_blank").mb-0
+                span Ver más
+                i.fas.fa-link 
+
+
 </template>
 
 <script>

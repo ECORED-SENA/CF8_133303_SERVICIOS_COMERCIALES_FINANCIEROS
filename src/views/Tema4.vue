@@ -6,62 +6,136 @@
       .titulo-principal__numero
         span.text-white 4
       h1 Técnicas de gestión de datos masivos
-    .bg15.p-4.mb-5.mt-5(data-aos="fade-right")
-      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-5
-        .col-lg-12
+    .row.justify-content-center
+      .col-lg-12
           p.ps-5 El proceso para realizar la gestión de datos está inmerso en cuatro técnicas generales que son:
-        .col-lg-6.ms-5
-          ul.lista-ul--color
-            li
-              i.fas.fa-check-circle(style="color:#FC8116")
-              p.mb-0 #[b Asociación:] hace la actividad de relacionar los datos según sus variables.
-            li
-              i.fas.fa-check-circle(style="color:#FC8116")
-              p.mb-0 #[b Minera de datos:] extrae datos que contienen relación con las variables relacionadas.
-            li
-              i.fas.fa-check-circle(style="color:#FC8116")
-              p.mb-0 #[b Agrupación:] toma los grupos grandes y los divide en pequeños para facilitar el análisis y encontrar similitudes con el propósito de conocer la estructura de la información.
-            li
-              i.fas.fa-check-circle(style="color:#FC8116")
-              p.mb-0 #[b Análisis de texto:] realiza la modelación de la información extraída por contenido textual. 
-        .col-md-5.col-8(data-aos="fade-left")
-            img(src='@/assets/curso/tema4/img2.svg')
-    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
-      .col-10.bg16.p-4
-        .row.align-items-center.justify-content-center
-          .col-lg-2.mb-3
-            figure
-              img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
-          .col-lg-8.bg17
-            p.p-3 Cabe resaltar que estas técnicas van acompañadas por las diferentes herramientas digitales y métodos que escoge cada empresa.
+    .bg10.p-4.mb-5.mt-5(data-aos="fade-right")
+      .row.justify-content-center(data-aos="fade-left")
+        .col-md-4.col-8(data-aos="fade-left")
+          img(src='@/assets/curso/tema4/img2.svg')
+        .col-lg-6.ms-5   
+          p.mb-3 #[b Asociación:] hace la actividad de relacionar los datos según sus variables.
+          p.mb-3 #[b Minera de datos:] extrae datos que contienen relación con las variables relacionadas.
+          p.mb-3 #[b Agrupación:] toma los grupos grandes y los divide en pequeños para facilitar el análisis y encontrar similitudes con el propósito de conocer la estructura de la información.
+          p.mb-3 #[b Análisis de texto:] realiza la modelación de la información extraída por contenido textual. 
+    .col-lg-12
+      p Cabe resaltar que estas técnicas van acompañadas por las diferentes herramientas digitales y métodos que escoge cada empresa.
+
     Separador
     #t_4_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.1 Metodologías
-    p.mb-5 EEn la actualidad existen varias metodologías que se utilizan para el análisis de datos masivos de las cuales el aprendiz conocerá el método, su característica y ejemplo para que pueda relacionar en su entorno laboral mediante la siguiente tabla.
-    .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
+      h2 4.1 Tipos de contingencias
+    p Las contingencias se manejan como herramientas creadas en tablas para cruzar información, con el propósito de #[b representar un consolidado de los datos con sus respectivas variables, sirven para ordenar la información según sus características de búsqueda.]
+    p Los tipos de contingencia son:
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")(data-aos="fade-right")
+        .row.justify-content-center
+          .col-lg-3.mb-4.mb-lg-0.p-2
+            p #[b Por característica]
+            p Se determina un conjunto de características comparativas.
+            p #[b Ejemplo:]
+          .col-lg-8.bg11.p-4
+            .row.justify-content-center
+              .col-lg-10.d-flex-justify-content-center
+                .tabla-a.color-acento-botones.mb-4
+                  table
+                    tbody
+                      tr(style="background-color: #FFE390")
+                        td.taborde.text-center #[b Característica]
+                        td.taborde.text-center #[b Candidato A]
+                        td.taborde.text-center #[b Candidato B]
+                        td.taborde.text-center #[b Todos]
+
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Femenino
+                        td.taborde.text-center.text-center 33
+                        td.taborde.text-center.text-center 27
+                        td.taborde.text-center.text-center 60
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Masculino
+                        td.taborde.text-center 22
+                        td.taborde.text-center 24
+                        td.taborde.text-center 46
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Todos
+                        td.taborde.text-center 51
+                        td.taborde.text-center 55
+                        td.taborde.text-center 106
+            figure
+              img.img-t(src='@/assets/curso/tema4/img3.svg').mx-auto
+        .row.justify-content-center
+          .col-lg-3.mb-4.mb-lg-0.p-2
+            p #[b Por factores]
+            p Se determina por condición social, edad y demás factores de estudio.
+            p #[b Ejemplo:]
+          .col-lg-8.bg11.p-4
+            .row.justify-content-center
+              .col-lg-10.d-flex-justify-content-center
+                .tabla-a.color-acento-botones.mb-4
+                  table
+                    tbody
+                      tr(style="background-color: #FFE390")
+                        td.taborde.text-center #[b Factores]
+                        td.taborde.text-center #[b Candidato A]
+                        td.taborde.text-center #[b Candidato B]
+                        td.taborde.text-center #[b Todos]
+
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Femenino - Asalariado
+                        td.taborde.text-center.text-center 22
+                        td.taborde.text-center.text-center 15
+                        td.taborde.text-center.text-center 37
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Masculino - Independiente
+                        td.taborde.text-center 33
+                        td.taborde.text-center 26
+                        td.taborde.text-center 59
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Todos
+                        td.taborde.text-center 55
+                        td.taborde.text-center 41
+                        td.taborde.text-center 96
+            figure
+              img.img-t(src='@/assets/curso/tema4/img3.svg').mx-auto
+        .row.justify-content-center
+          .col-lg-3.mb-4.mb-lg-0.p-2
+            p #[b Por probabilidad]
+            p Se establecen unas variables para ver la probabilidad que suceda algo.
+            p #[b Ejemplo:]
+          .col-lg-8.bg11.p-4
+            .row.justify-content-center
+              .col-lg-10.d-flex-justify-content-center
+                .tabla-a.color-acento-botones.mb-4
+                  table
+                    tbody
+                      tr(style="background-color: #FFE390")
+                        td.taborde.text-center #[b Probabilidad]
+                        td.taborde.text-center #[b Niños]
+                        td.taborde.text-center #[b Adultos]
+                        td.taborde.text-center #[b Todos]
+
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Cáncer
+                        td.taborde.text-center.text-center 11%
+                        td.taborde.text-center.text-center 89%
+                        td.taborde.text-center.text-center 100%
+                      tr(style="background-color: #FFF5D3")
+                        td.taborde.text-center Diabetes
+                        td.taborde.text-center.text-center 12%
+                        td.taborde.text-center.text-center 88%
+                        td.taborde.text-center.text-center 100%         
+            figure
+              img.img-t(src='@/assets/curso/tema4/img3.svg').mx-auto
+    .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #EDF8A4" data-aos="fade")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/img59.png")
-        .col.ps-lg-5
+          img.mx-auto(src="@/assets/curso/tema1/img5.svg" style="max-width: 37px")
+        .col.pe-xl-5
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4 Metodologías para el proceso de análisis y administración de <em>Big Data</em> . Tabla 2
-              p.mb-0 Lo invitamos a consultar el siguiente recurso que muestra un el ejemplo de las herramientas para el proceso de análisis y administración del <em>Big Data</em>.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/anexo5.pdf')" target="_blank")
-                span Descargar 
-                i.fas.fa-file-download
-    .bg_grad-01
-      .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up-left")
-        .col-10.bg5.p-4
-          .row.align-items-center.justify-content-center
-            .col-lg-2.mb-3
-              figure
-                img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
-            .col-lg-10.bg6
-              h4.ps-3.mt-2 Nota:
-              p.mb-0 Cada entidad utiliza el método según requerimientos en su gestión.
+              p.mb-0 #[b Nota:] se puede observar que los tipos de contingencia se adaptan según las necesidades de las diferentes entidades y el <em>software</em> que se maneje es fundamental para su facilidad.
+   
+      
     Separador
     #t_4_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -110,7 +184,6 @@
             .p-4
               h4.text-center <em>Update</em>
               p Es el idioma para actualizar la información y cambiar valores.
-
 </template>
 
 <script>
