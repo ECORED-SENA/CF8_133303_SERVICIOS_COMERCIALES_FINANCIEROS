@@ -41,7 +41,7 @@
       h2 1.1 Herramientas para el análisis de los datos
     p Para el proceso de analizar los datos se utiliza una serie de herramientas que se comparten en la siguiente tabla con su función principal:
     .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Ejemplo]. Herramientas para el análisis los datos
+      p.mb-0 #[b Tabla 1]. Herramientas para el análisis los datos
 
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-right")
       table
