@@ -29,7 +29,7 @@
             img(src="@/assets/curso/tema1/img3.png"  alt='Texto que describa la imagen')
       .col-9.col-lg-3.bgt03
         .row.m-1.hoverScale2
-          .col-12.p-1.bgtitulo
+          .col-12.p-2.bgtitulo
             h3.mt-3.text-center Digital e inteligencia artificial
           .col-12.p-3.bgcontenido(style="height: 130px")
             p Hace uso de las diferentes herramientas existentes para la extracción y análisis de datos.
@@ -110,12 +110,7 @@
           img(src='@/assets/curso/tema1/img6.svg', style="width: 280px")
           .tarjeta.color-acento-contenido1
             .p-4
-              br
-              br
-              br
-              br
-              br
-              br
+             
               h4 Mapeo
               p Es el proceso de rastrear la información desde su origen, verificando todos los cambios. 
 
@@ -124,12 +119,7 @@
           img(src='@/assets/curso/tema1/img7.svg', style="width: 280px")
           .tarjeta.color-acento-contenido1
             .p-4
-              br
-              br
-              br
-              br
-              br
-              br
+             
               h4 Código
               p Se crea para que los datos que se extraen sean compatibles con los programas que se manejan.
     .row.justify-content-center
@@ -166,12 +156,12 @@
           img.imgtema1(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' )
           p-mb-0 #[b ETL en el disco local:] 
           p ETL = extraer, transformar y cargar por medio del disco duro de la empresa o servidor.
-      .col-lg-4.mb-4
+      .col-lg-4.mb-5
         .tarjeta.tarjeta.color-acento-contenido2.p-4
           p-mb-0 #[b ETL en la nube:] 
           p Se hace el proceso de extraer, transformar y cargar en la nube, utilizando los beneficios que el proveedor le proporciona.    
           img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen' ).mb-5
-      .col-lg-4.mb-4
+      .col-lg-4.mb-4.mt-5.mt-lg-0
         .tarjeta.tarjeta.color-acento-contenido2.p-4
           img.imgtema1(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' )
           p-mb-0 #[b Scripting:] 
@@ -306,7 +296,7 @@
       .bgsly2
         .bgsly1.p-4
           img(src='@/assets/curso/tema1/img25.svg' alt='AvatarTop')
-          .bgsly3.p-1.mt-4.mb-4
+          .bgsly3.p-1.mt-5.mb-4
             h4.text-center.mb-0 Según tamaño de la muestra
         .bgsly4.p-4.pb-5
           p.mb-0 Sirve para recopilar el tamaño de una población y medirla.
