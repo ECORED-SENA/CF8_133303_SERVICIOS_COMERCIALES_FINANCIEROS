@@ -139,7 +139,7 @@
     Separador
     #t_4_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.2 Almacenamiento
+      h2 4.2 Criterios de respaldo y recuperación
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-12
         p El almacenamiento es la actividad de guardar los datos por medio de herramientas que se utilizan para conservar la información. Los tipos de herramientas pueden ser magnéticas, ópticas, sólidas, informáticas y digitales, con las cuales la entidad puede almacenar los datos.
@@ -155,11 +155,11 @@
         .col.pe-xl-5
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-0 #[b Nota:] Se invita a ampliar la información sobre las herramientas descritas anteriormente y analizar su evolución y servicios en la vida cotidiana.
+              p.mb-0 #[b Nota:] se invita a ampliar la información sobre las herramientas descritas anteriormente y analizar su evolución y servicios en la vida cotidiana.
     Separador
     #t_4_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.3 Lenguajes de consulta y manipulación de datos
+      h2 4.3 Herramientas de depuración de los datos 
     .row.mb-5
       .col-lg-12
         p Esta actividad se enfoca en limpiar y recopilar los datos que van a ser utilizados, consultados, investigados, extraídos o buscados, con el propósito de que la información sea precisa y válida para los diferentes análisis que se requieren hacer en el proceso, garantizando la seguridad de los datos obtenidos.
@@ -298,9 +298,9 @@
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/tema4/img22.svg', style="width: 125px")
-          p.mb-0 #[b Conformidad]
-          p.mb-0 Grado en el que los datos tienen atributos que se adhieren a estándares, convenciones o normativas vigentes y reglas similares referentes a la calidad de los datos en un contexto de uso específico.
-        
+          p.mb-0 #[b Recuperabilidad]
+          p.mb-0 Grado en el que los datos tienen atributos que permiten mantener y preservar un nivel específico de operaciones y calidad, incluso en caso de fallos en un contexto de uso específico.
+
 
 </template>
 

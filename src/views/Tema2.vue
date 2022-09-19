@@ -48,21 +48,21 @@
           .col-12.p-2.bgtitulo
             h3.mt-2.text-center <em>Microsoft Access</em>
           .col-12.p-3.bgcontenido(style="height: 350px")
-            img.mb-3(src="@/assets/curso/tema2/img2.png"  alt='Texto que describa la imagen')
+            img.mb-3(src="@/assets/curso/tema2/img5.png"  alt='Texto que describa la imagen')
             p Es una herramienta para el uso de manejo y gestión de la información que se puede adecuar a <em>Excel, share point</em> y demás componentes, trabaja de forma relacional para la entrega de reportes o consultas.      
       .col-12.col-lg-12.mb-3.mb-lg-0.bgt02
         .row.m-1
           .col-12.p-2.bgtitulo
             h3.mt-2.text-center <em>FileMarker</em>
           .col-12.p-3.bgcontenido(style="height: 350px")
-            img.mb-3(src="@/assets/curso/tema2/img3.png"  alt='Texto que describa la imagen')
+            img.mb-3(src="@/assets/curso/tema2/img6.png"  alt='Texto que describa la imagen')
             p Aplicación de <em>Mac y Windows</em> para bases de datos relacionales, sirve para extraer información y comparar con la particularidad que es multiplataforma, lo que facilita trabajar con las gráficas propias del equipo del usuario.
       .col-12.col-lg-12.mb-3.mb-lg-0.bgt03
         .row.m-1
           .col-12.p-2.bgtitulo
             h3.mt-2.text-center <em>dBASE</em>
           .col-12.p-3.bgcontenido(style="height: 350px")
-            img.mb-3(src="@/assets/curso/tema2/img4.png"  alt='Texto que describa la imagen')
+            img.mb-3(src="@/assets/curso/tema2/img7.png"  alt='Texto que describa la imagen')
             p Herramienta pionera en la gestión de base de datos, se utiliza manejando palabras clave de búsqueda y lugar en donde hacerlo, es utilizado por entidades que manejan un nivel de información baja y de fácil administración.
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7

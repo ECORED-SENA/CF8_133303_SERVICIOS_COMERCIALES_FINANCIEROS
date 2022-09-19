@@ -41,7 +41,7 @@
       h2 1.1 Herramientas para el análisis de los datos
     p Para el proceso de analizar los datos se utiliza una serie de herramientas que se comparten en la siguiente tabla con su función principal:
     .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Ejemplo]. Listado de Operaciones
+      p.mb-0 #[b Ejemplo]. Herramientas para el análisis los datos
 
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-right")
       table
@@ -75,7 +75,7 @@
            
           tr
             td(colspan="3") <em>Tableau Public</em>
-            td(colspan="9").mb-4 Esta herramienta de análisis de datos es un <em>software</em> gratis que entrelaza las fuentes de información en tiempo real de la Web.
+            td(colspan="9").mb-4 Esta herramienta de análisis de datos es un <em>software</em> gratis que entrelaza las fuentes de información en tiempo real de la <em>web</em>.
 
           tr(style="background-color: #F6F6F6")
             td(colspan="3") <em>Rapid Miner</em>
@@ -102,7 +102,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Técnicas de transformación de los datos
     .row.justify-content-center
-      p.mb-0 La transformación es la actividad de volver los datos en información valiosa para la toma de decisiones en una organización, en formatos solicitados por cada entidad. 
+      p.mb-0 La transformación es la actividad de convertir los datos en información valiosa para la toma de decisiones en una organización, en formatos solicitados por cada entidad. 
       p.mb-5 Esta transformación se compone de las siguientes actividades:
     .row.justify-content-center.mb-5
       .col-lg-5.col-lg.mb-5.mb-lg-0
@@ -174,8 +174,8 @@
       .col-lg-4.mb-4
         .tarjeta.tarjeta.color-acento-contenido2.p-4
           img.imgtema1(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' )
-          p-mb-0 #[b ETL en el disco local:] 
-          p ETL = extraer, transformar y cargar por medio del disco duro de la empresa o servidor.
+          p-mb-0 #[b Scripting:] 
+          p Esta técnica se utiliza por medio de scripts para identificar el código y así extraer los datos y transformarlos en información
       
     .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #EDF8A4" data-aos="fade")
       .row.justify-content-around.align-items-center
@@ -227,7 +227,7 @@
             .col-12
               .row.align-items-center
                 .col-md-6.align-items-center
-                  p.ps-5 Sirve para hallar la tendencia y promedio de datos.
+                  p.ps-5 Brinda la facilidad para definir flujos de forma visual, generando el proceso personalizado.
                 .col-lg-6.col-md-6.col-12.p-0
                   figure
                     img.img-t(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen').mx-auto
@@ -356,7 +356,7 @@
       .col-lg-12
         p-mb-5 En la actualidad existen varias metodologías que se utilizan para el análisis de los datos masivos, de las cuales conocerá el método, su característica y ejemplo para que pueda relacionarla en su entorno laboral mediante la siguiente tabla.
     .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Ejemplo]. Metodologías para analizar grandes volúmenes de datos
+      p.mb-0 #[b Tabla 2]. Metodologías para analizar grandes volúmenes de datos
     .tabla-a.color-acento-contenido.mb-5(data-aos="fade-right")
       table
         thead(style="background-color:#F1AD70")
@@ -486,10 +486,10 @@
       .bgsly2.alt
         .bgsly7.p-4
           .bgsly3.p-2
-            h4.text-center.mb-0 Búsquedas web: 
+            h4.text-center.mb-0 Búsquedas <em>web</em>: 
         img(src='@/assets/curso/tema1/img41.png')
         .bgsly8.p-4.pb-5
-          p.mb-0 Es el proceso de buscar información en las diferentes páginas web para reprocesarla, analizarla y que sirva de base para la toma de decisiones.
+          p.mb-0 Es el proceso de buscar información en las diferentes páginas <em>web</em> para reprocesarla, analizarla y que sirva de base para la toma de decisiones.
 
 </template>
 
