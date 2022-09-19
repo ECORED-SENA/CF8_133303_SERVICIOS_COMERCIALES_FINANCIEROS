@@ -235,7 +235,7 @@ export default {
       referencia:
         'BBC News Mundo. (2021). Qué son los algoritmos y cómo aprenden de nosotros',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=LFupF0du7b4',
+      link: 'https://www.youtube.com/embed/RSJrBEhdZxw',
     },
     {
       tema: 'Algoritmos',
