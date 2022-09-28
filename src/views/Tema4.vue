@@ -11,7 +11,7 @@
           p.ps-5 El proceso para realizar la gestión de datos está inmerso en cuatro técnicas generales que son:
     .bg10.p-4.mb-5.mt-5(data-aos="fade-right")
       .row.justify-content-center(data-aos="fade-left")
-        .col-md-4.col-8(data-aos="fade-left")
+        .col-md-10.col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img2.svg')
         .col-lg-6.ms-5   
           p.mb-3 #[b Asociación:] hace la actividad de relacionar los datos según sus variables.
@@ -29,14 +29,14 @@
     p Los tipos de contingencia son:
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA.flesly(tipo="b")(data-aos="fade-right")
-        .row.justify-content-center
+        .row.justify-content-center.p-3
           .col-lg-3.mb-4.mb-lg-0.p-2
             p #[b Por característica]
             p Se determina un conjunto de características comparativas.
             p #[b Ejemplo:]
-          .col-lg-8.bg11.p-4
-            .row.justify-content-center
-              .col-lg-10.d-flex-justify-content-center
+          .col-lg-8.bg11.p-lg-4
+            .row
+              .col-lg-12
                 .tabla-a.color-acento-botones.mb-4
                   table
                     tbody
@@ -61,16 +61,16 @@
                         td.taborde.text-center 51
                         td.taborde.text-center 55
                         td.taborde.text-center 106
-            figure
-              img.img-t(src='@/assets/curso/tema4/img3.svg').mx-auto
-        .row.justify-content-center
+              figure
+                img.img-t(src='@/assets/curso/tema4/img3.svg').mx-auto
+        .row.justify-content-center.p-3
           .col-lg-3.mb-4.mb-lg-0.p-2
             p #[b Por factores]
             p Se determina por condición social, edad y demás factores de estudio.
             p #[b Ejemplo:]
           .col-lg-8.bg11.p-4
-            .row.justify-content-center
-              .col-lg-10.d-flex-justify-content-center
+            .row
+              .col-lg-12
                 .tabla-a.color-acento-botones.mb-4
                   table
                     tbody
@@ -97,14 +97,14 @@
                         td.taborde.text-center 96
             figure
               img.img-t(src='@/assets/curso/tema4/img3.svg').mx-auto
-        .row.justify-content-center
+        .row.justify-content-center.p-3
           .col-lg-3.mb-4.mb-lg-0.p-2
             p #[b Por probabilidad]
             p Se establecen unas variables para ver la probabilidad que suceda algo.
             p #[b Ejemplo:]
           .col-lg-8.bg11.p-4
-            .row.justify-content-center
-              .col-lg-10.d-flex-justify-content-center
+            .row
+              .col-lg-12
                 .tabla-a.color-acento-botones.mb-4
                   table
                     tbody

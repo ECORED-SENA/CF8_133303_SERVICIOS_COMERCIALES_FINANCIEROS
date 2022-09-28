@@ -14,7 +14,7 @@
       .col-9.col-lg-3.mb-3.mb-lg-0.bgt01
         .row.m-1.hoverScale2
           .col-12.p-3.bgtitulo
-            h3.mt-3.text-center Estadística
+            h4.mt-3.text-center Estadística
           .col-12.p-3.bgcontenido(style="height: 130px")
             p Por medio de esta se revisan variables, se organizan datos y se realizan análisis e interpretaciones.
           .col-12.px-0
@@ -22,7 +22,7 @@
       .col-9.col-lg-3.mb-3.mb-lg-0.bgt02
         .row.m-1.hoverScale2
           .col-12.p-3.bgtitulo
-            h3.mt-3.text-center Ciencia
+            h4.mt-3.text-center Ciencia
           .col-12.p-3.bgcontenido(style="height: 130px")
             p Por medio de esta se hace comprobación y experimentación para la toma de decisiones.
           .col-12.px-0
@@ -30,7 +30,7 @@
       .col-9.col-lg-3.bgt03
         .row.m-1.hoverScale2
           .col-12.p-2.bgtitulo
-            h3.mt-3.text-center Digital e inteligencia artificial
+            h4.mt-3.text-center Digital e inteligencia artificial
           .col-12.p-3.bgcontenido(style="height: 130px")
             p Hace uso de las diferentes herramientas existentes para la extracción y análisis de datos.
           .col-12.px-0
@@ -129,7 +129,7 @@
       .row.align-items-end.mb-5
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src='@/assets/curso/tema1/img8.svg')(data-aos="fade-right")
+            img.img-t(src='@/assets/curso/tema1/img8.svg').mx-auto(data-aos="fade-right")
         .col-lg-1
         .col-lg-6
           ImagenInfografica.color-acento-botones.mb-5
@@ -150,7 +150,7 @@
       .col-lg-12
         p Y las técnicas para transformar los datos son:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.margb
       .col-lg-4.mb-4
         .tarjeta.tarjeta.color-acento-contenido2.p-4
           img.imgtema1(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' )
@@ -163,7 +163,7 @@
           img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen' ).mb-5
       .col-lg-4.mb-4.mt-5.mt-lg-0
         .tarjeta.tarjeta.color-acento-contenido2.p-4
-          img.imgtema1(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen' )
+          img.imgtema1(src='@/assets/curso/tema1/img12.svg', alt='Texto que describa la imagen' )
           p-mb-0 #[b Scripting:] 
           p Esta técnica se utiliza por medio de scripts para identificar el código y así extraer los datos y transformarlos en información
       
@@ -218,7 +218,7 @@
               .row.align-items-center
                 .col-md-6.align-items-center
                   p.ps-5 Brinda la facilidad para definir flujos de forma visual, generando el proceso personalizado.
-                .col-lg-6.col-md-6.col-12.p-0
+                .col-lg-6.col-md-6.col-12
                   figure
                     img.img-t(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen').mx-auto
           .row(titulo="<em>Streamsets</em>")
@@ -226,7 +226,7 @@
               .row.align-items-center
                 .col-md-6.align-items-center
                   p.ps-5 Crea y realiza procesos de limpieza por separado. 
-                .col-lg-6.col-md-6.col-12.p-0
+                .col-lg-6.col-md-6.col-12
                   figure
                     img.img-t(src='@/assets/curso/tema1/img17.png').mx-auto
           .row(titulo="<em>Apache Airflow</em>")
@@ -234,7 +234,7 @@
               .row.align-items-center
                 .col-md-6.align-items-center
                   p.ps-5 Permite crear y monitorear los flujos de información para encontrar los errores.
-                .col-lg-6.col-md-6.col-12.p-0
+                .col-lg-6.col-md-6.col-12
                   figure
                     img.img-t(src='@/assets/curso/tema1/img18.png').mx-auto
           .row(titulo="<em>AWS Data Pipeline</em>")
@@ -242,7 +242,7 @@
               .row.align-items-center
                 .col-md-6.align-items-center
                   p.ps-5 Hace la limpieza desde la nube, así como transmisión y transformación.
-                .col-lg-6.col-md-6.col-12.p-0
+                .col-lg-6.col-md-6.col-12
                   figure
                     img.img-t(src='@/assets/curso/tema1/img19.png').mx-auto
           .row(titulo="<em>AWS Glue</em>")
@@ -250,7 +250,7 @@
               .row.align-items-center
                 .col-md-6.align-items-center
                   p.ps-5 Esta herramienta de forma automática ejecuta los trabajos predeterminados de limpieza, así como transformación o extracción de los datos.
-                .col-lg-6.col-md-6.col-12.p-0
+                .col-lg-6.col-md-6.col-12
                   figure
                     img.img-t(src='@/assets/curso/tema1/img20.png').mx-auto
           .row(titulo="<em>Talend</em>")
@@ -258,7 +258,7 @@
               .row.align-items-center
                   .col-md-6.align-items-center
                     p.ps-5 Esta herramienta se adapta a otras plataformas, tiene la capacidad de monitorear y relacionar la información permitiendo agilidad en la limpieza.
-                  .col-lg-6.col-md-6.col-12.p-0
+                  .col-lg-6.col-md-6.col-12
                     figure
                       img.img-t(src='@/assets/curso/tema1/img21.png').mx-auto
           .row(titulo="<em>Informática Power Center</em>")
@@ -266,7 +266,7 @@
               .row.align-items-center
                 .col-md-6.align-items-center
                   p.ps-5 Integra los datos soportando gran cantidad de información, obteniendo un óptimo rendimiento en la limpieza de los datos. 
-                .col-lg-6.col-md-6.col-12.p-0
+                .col-lg-6.col-md-6.col-12
                   figure
                     img.img-t(src='@/assets/curso/tema1/img22.png').mx-auto
     p Se retroalimenta que la elección de la herramienta corresponde a los tipos de bases de datos que administre cada entidad y los beneficios aplicables a sus objetivos organizacionales, porque se debe tener en cuenta el volumen de información, su naturaleza, las tareas que se van a desarrollar y las actividades adicionales. 
@@ -333,7 +333,7 @@
           .col-lg-2.mb-3
             figure
               img.img-t(src='@/assets/curso/tema1/img18.svg').mx-auto(data-aos="fade-right").mx-auto
-    .bg1
+    .bg13
       .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
         .col-lg-10
           .titulo-sexto.color-acento-contenido.mb-5
@@ -512,13 +512,13 @@ export default {
         titulo: 'Algoritmos genéticos',
         texto:
           'Es una herramienta pensada en la naturaleza y su evolución que evalúa los datos obtenidos para su estudio con el propósito de mejorar los procesos productivos, gestión del comportamiento humano e inclusive mejorar los resultados de inversión de una entidad, ya que está ligada a unos parámetros de evolución.',
-        imagen: require('@/assets/curso/tema1/img31.png'),
+        imagen: require('@/assets/curso/tema1/img31.jpg'),
       },
       {
         titulo: 'Análisis de series temporales',
         texto:
           'Su función es la predicción de valores por medio de datos anteriores. En una entidad sirve para proyectar ventas, ingresos y demás pronósticos que se requieran.',
-        imagen: require('@/assets/curso/tema1/img32.png'),
+        imagen: require('@/assets/curso/tema1/img32.jpg'),
       },
     ],
   }),
