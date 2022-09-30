@@ -9,7 +9,7 @@
   
     .row.justify-content-center.mb-5
       .col-lg-12
-        p #[b Es la unión de las áreas estadística científica y digital con la llamada inteligencia artificial,]  que tiene la función de recopilar todos los datos de interés o búsqueda que se requieran, con el propósito de analizar esa información según su finalidad para dar solución a un requerimiento o situación presentada.
+        p #[b Es la unión de las áreas estadística, científica y digital con la llamada inteligencia artificial,]  que tiene la función de recopilar todos los datos de interés o búsqueda que se requieran, con el propósito de analizar esa información según su finalidad para dar solución a un requerimiento o situación presentada.
     .row.justify-content-center(data-aos="zoom-in")
       .col-9.col-lg-3.mb-3.mb-lg-0.bgt01
         .row.m-1.hoverScale2
@@ -181,7 +181,7 @@
       h2 1.3 Limpieza ETL a los datos descargados
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-6
-        p.mb-5 #[b La limpieza es un proceso que elimina los datos repetidos, verifica los nuevos, garantiza la coherencia de búsqueda y confiabilidad de la información que se recibe para la toma de decisiones en la entidad.]
+        p.mb-5 La limpieza es un proceso que elimina los datos repetidos, verifica los nuevos, garantiza la coherencia de búsqueda y confiabilidad de la información que se recibe para la toma de decisiones en la entidad.
       .col-lg-6
         p.mb-5 Se debe hacer para tener información exacta, coherente, válida y uniforme, a fin de que se optimicen los tiempos en la gestión y sobre todo que la administración de la información sea más eficiente. Los principios de limpieza ETL son:
     TabsA.color-acento-contenido.mb-5
@@ -328,7 +328,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-10
             .dual-txt-deco1
-              p(style="position: relative; z-index: 1;") Este proceso es conocido como data <em>analytics</em>, en español análisis de los datos, que es la actividad de tomar la información y transformarla, dando deducciones para las decisiones que infieren en la mejora continua de la organización.
+              p(style="position: relative; z-index: 1;") Este proceso es conocido como <em>data analytics</em>, en español análisis de los datos, que es la actividad de tomar la información y transformarla, dando deducciones para las decisiones que infieren en la mejora continua de la organización.
               p La siguiente figura presenta los modelos de análisis de los datos:
           .col-lg-2.mb-3
             figure
@@ -458,7 +458,7 @@
             h4.text-center.mb-0 Entrevista:
         img(src='@/assets/curso/tema1/img38.png' alt='AvatarTop')
         .bgsly10.p-4.pb-5
-          p.mb-0 Es una actividad de recolección de información por medio de preguntas de forma directa a una persona o varias para conocer información ya sea de la misma o de hechos que puedan servir para la toma de decisiones.
+          p.mb-0 Es una actividad de recolección de información por medio de preguntas de forma directa a una persona o varias para conocer información, ya sea de la misma o de hechos que puedan servir para la toma de decisiones.
       .bgsly2.alt
         .bgsly7.p-4
           .bgsly3.p-2
@@ -472,7 +472,7 @@
             h4.text-center.mb-0 Análisis de documentos: 
         img(src='@/assets/curso/tema1/img40.png' alt='AvatarTop')
         .bgsly10.p-4.pb-5
-          p.mb-0 Es el proceso de tomar un documento reprocesarlo para sacar las conclusiones necesarias para la toma de decisiones.
+          p.mb-0 Es el proceso de tomar un documento y reprocesarlo para sacar las conclusiones necesarias para la toma de decisiones.
       .bgsly2.alt
         .bgsly7.p-4
           .bgsly3.p-2

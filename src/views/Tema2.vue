@@ -135,7 +135,7 @@
         figure
           img.img-t(src='@/assets/curso/tema2/img13.png', alt='Texto que describa la imagen').mx-auto
       .col-lg-7
-        p Hoy en día, a nivel organizacional, la adquisición de herramientas ofimáticas que potencien la automatización de los mecanismos laborales es una ventaja competitiva, para ello, la integración de los datos a través de mecanismos integrales para el manejo de la información es un prioridad, un ejemplo de esto se ve cuando se hace la adquisición de licencias de paquetes de office empresarial, el cual contiene muchas herramientas necesarias para la gestión laboral del Siglo XXI, en este ejemplo se encuentra herramientas ofimáticas como Word, Excel, Access, entre otras. No obstante, de acuerdo con el sector empresarial, los objetivos organizacionales y el planteamiento estratégico, día a día se requiere estar a la vanguardia y se generan nuevas herramientas ofimáticas funcionales que integran más y más datos, y qué además, permiten cada vez mejorar la interpretación y el análisis de la información.   
+        p Hoy en día, a nivel organizacional, la adquisición de herramientas ofimáticas que potencien la automatización de los mecanismos laborales es una ventaja competitiva, para ello, la integración de los datos a través de mecanismos integrales para el manejo de la información es una prioridad, un ejemplo de esto se ve cuando se hace la adquisición de licencias de paquetes de office empresarial, el cual contiene muchas herramientas necesarias para la gestión laboral del Siglo XXI, en este ejemplo se encuentran herramientas ofimáticas como Word, Excel, Access, entre otras. No obstante, de acuerdo con el sector empresarial, los objetivos organizacionales y el planteamiento estratégico, día a día se requiere estar a la vanguardia y se generan nuevas herramientas ofimáticas funcionales que integran más y más datos, y que además, permiten cada vez mejorar la interpretación y el análisis de la información.   
     .bg6
       .row.align-items-center.justify-content-center.mb-5
         .col-lg-2.mb-3
@@ -192,7 +192,7 @@
       h2 2.4 Tecnologías de la modernidad 4.0 
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12
-        p La automatización de las cosas y nuestra evolución tecnológica obedece al concepto conocido como "la cuarta revolución industrial”, para ello es importante apoyarse en el concepto definido por Schwab (2016), sistemas inteligentes y conectados, lo cuales parten de una programación de algoritmos y su alcance es cada día más amplio.  Al mismo tiempo, se producen oleadas de más avances tecnológicos, lo cual se ha visto impulsada de manera significativa con relación al efecto de la pandemia generada por el Covid-19 (Yang, 2020).
+        p La automatización de las cosas y nuestra evolución tecnológica obedece al concepto conocido como "la cuarta revolución industrial", para ello es importante apoyarse en el concepto definido por Schwab (2016), sistemas inteligentes y conectados, lo cuales parten de una programación de algoritmos y su alcance es cada día más amplio.  Al mismo tiempo, se producen oleadas de más avances tecnológicos, lo cual se ha visto impulsada de manera significativa con relación al efecto de la pandemia generada por el Covid-19 (Yang, 2020).
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-up-left")
@@ -209,7 +209,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4 La cuarta revolución industrial
-              p.mb-0 Para fortalecer este aprendizaje es importante que recurra al material complementario y observe el video. La cuarta revolución industrial. 
+              p.mb-0 Para fortalecer este aprendizaje es importante que recurra al material complementario y observe el video: La cuarta revolución industrial. 
             .col-sm-auto
               a.boton.color-acento-botones.me-3.mg4(href="https://www.youtube.com/watch?v=-OiaE6l8ysg" target="_blank").mb-0
                 span Ver más

@@ -256,7 +256,7 @@ export default {
     {
       termino: 'Almacenamiento de datos',
       significado:
-        'Guardar datos en un software u otra herramienta, generalmente de forma ordenada, para poder disponer cuando se necesite o convenga.',
+        'Guardar datos en un <em>software</em> u otra herramienta, generalmente de forma ordenada, para poder disponer cuando se necesite o convenga.',
     },
     {
       termino: 'Análisis',
@@ -296,21 +296,21 @@ export default {
     {
       termino: 'Toma de decisiones',
       significado:
-        'Proceso en el cual un individuo o grupo de individuos deben elegir entre varias opciones. Este proceso se activa cuando hay que resolver un conflicto o situación que requiere de una acción concreta',
+        'Proceso en el cual un individuo o grupo de individuos deben elegir entre varias opciones. Este proceso se activa cuando hay que resolver un conflicto o situación que requiere de una acción concreta.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Gurevich, Y.  (2000).  Sequential abstract state machines capture sequential algorithms. ACM Transactions on Computational Logic, (1), p. 77-111. ',
+        'Gurevich, Y.  (2000).  <em>Sequential abstract state machines capture sequential algorithms. ACM Transactions on Computational Logic</em>, (1), p. 77-111. ',
     },
     {
       referencia:
-        'Moschovakis, Y. (1998). On founding the theory of algorithms. Truth in mathematics. Oxford University Press. Normas ISO 25000. (s.f.). ISO 25000 Calidad de software y datos ISO/IEC 25012. ',
+        'Moschovakis, Y. (1998). <em>On founding the theory of algorithms. Truth in mathematics. Oxford University Press</em>. Normas ISO 25000. (s.f.). ISO 25000 Calidad de <em>software</em> y datos ISO/IEC 25012. ',
     },
     {
       referencia:
-        'Normas ISO 25000. (s.f.). ISO 25000 Calidad de software y datos ISO/IEC 25012.',
+        'Normas ISO 25000. (s.f.). ISO 25000 Calidad de <em>software</em> y datos ISO/IEC 25012.',
       link:
         'https://iso25000.com/index.php/normas-iso-25000/iso-25012?start=15',
     },
@@ -328,7 +328,7 @@ export default {
     },
     {
       referencia:
-        'Wu, D., Wu, T., Liu, Q., & Yang, Z. (2020). The SARS-CoV-2 outbreak: what we know. International Journal of Infectious Diseases, (94), p. 44-48.',
+        'Wu, D., Wu, T., Liu, Q., & Yang, Z. (2020). <em>The SARS-CoV-2 outbreak: what we know. International Journal of Infectious Diseases</em>, (94), p. 44-48.',
     },
   ],
   creditos: {

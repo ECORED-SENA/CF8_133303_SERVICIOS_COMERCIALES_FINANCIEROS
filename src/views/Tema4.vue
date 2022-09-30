@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 4
-      h1 Técnicas de gestión de datos masivos
+      h1 Técnicas de gestión de los datos masivos
     .row.justify-content-center
       .col-lg-12
           p.ps-5 El proceso para realizar la gestión de datos está inmerso en cuatro técnicas generales que son:
